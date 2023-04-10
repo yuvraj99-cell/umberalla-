@@ -1,0 +1,143 @@
+.container{
+    border: 1px solid orange ;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fffbef;
+    
+}
+.card{
+    border: 3px solid #da398f;
+    height:80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+.subcard1{
+    border: 1px solid blue ;
+  
+    width:50%;
+}
+.subcard2{
+    border: 1px solid red ;
+   
+    width: 30%;
+}
+
+.img{
+    display: flex;
+    text-align: center;
+    
+   
+    justify-content: center;
+    border: 2px solid #12b1ea;;
+}
+img{
+    
+    height:70%;
+    width:70%;
+    z-index: 1;
+}
+
+p{
+    font-size:10px;
+}
+#btn{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fdd450;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    width:96%;
+    height: 1.8em;
+    border-radius: 12px;
+   
+    padding: 5px;
+   
+
+}
+
+#logoImage{
+    display: flex;
+    width:20%;
+    border: 1px solid red;
+    height: 1.2em;
+    z-index: 2;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn1{
+    background-color: #da398f;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    border: 2px solid transparent;
+}
+.btn2{
+    background-color: #33b4e6;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    border: 2px solid transparent;
+    
+}
+.btn3{
+    background-color: #fdd450;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    border: 2px solid transparent;
+    
+}
+
+
+
+
+#custom-button {
+    /* padding: 5px; */
+    
+    color: white;
+    background-color:transparent;
+    border: unset;
+    cursor: pointer;
+    /* margin: 10px 0 0 1px; */
+    
+  }
+  
+  /* #custom-button:hover {
+    background-color: #00b28f;
+  } */
+  
+  #custom-text {
+   margin-top: 5px;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  #reset-button{
+    border: unset;
+    font-size: larger;
+    color: #fff;
+    background-color: transparent;
+  }
